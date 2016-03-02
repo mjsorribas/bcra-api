@@ -1,0 +1,22 @@
+{
+  "name": "bcra-api",
+  "version": "1.0.0",
+  "description": "Rest API for currency cotization from the Banco Central de la Republica Argentina",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Ismael Vasquez <ismael@meziaz.com.ar>",
+  "license": "MIT",
+  "dependencies": {
+    "bcra-cotization": "^1.1.0",
+    "lodash": "^4.0.0",
+    "node-cache": "^3.0.1",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.3.4"
+  }
+}
